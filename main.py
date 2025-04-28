@@ -5,7 +5,7 @@ import torch
 import numpy as np
 from ultralytics import YOLO
 from yolo.inference import detect
-from preprocessing.convert_bdd100k_lables import ID_TO_LABEL
+from RoadDetection.preprocessing.convert_lables import ID_TO_LABEL
 from OC_SORT.trackers.ocsort_tracker.ocsort import OCSort
 from depth_estimation import *
 
