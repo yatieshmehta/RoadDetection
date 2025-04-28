@@ -1,0 +1,17 @@
+train: ./train/images 
+val: ./val/images
+test: ./test/images
+
+nc: 10
+
+names:
+  0: car
+  1: bus
+  2: person
+  3: bike
+  4: truck
+  5: motor
+  6: train
+  7: rider
+  8: traffic sign
+  9: traffic light

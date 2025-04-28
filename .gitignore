@@ -1,3 +1,16 @@
+# Datasets
+dataset/train/*
+dataset/val/*
+dataset/test/*
+!dataset/train/.gitkeep
+!dataset/val/.gitkeep
+!dataset/test/.gitkeep
+*.jpg
+*.png
+*.mp4
+raw_data/
+output/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
